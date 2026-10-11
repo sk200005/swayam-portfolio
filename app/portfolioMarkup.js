@@ -37,6 +37,7 @@ export const MARKUP = `<canvas id="bgfx" aria-hidden="true"></canvas>
       <p class="lede"> <strong> <span class="highlight">Building intelligent systems & real-world products.</span> </strong> I build scalable software, from AI agents and RAG pipelines to full-stack applications.</p>
       <div class="cta">
         <a class="btn btn-ink" href="#work">See what I\'ve built</a>
+        <a class="btn btn-ghost" href="https://drive.google.com/file/d/1f4nMtLiER4qD_IH72k001n4OnFUFQjhx/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
         <button class="btn btn-ghost" type="button" data-copy>Copy my email</button>
       </div>
     </div>
@@ -258,8 +259,8 @@ export const MARKUP = `<canvas id="bgfx" aria-hidden="true"></canvas>
           <li><a href="mailto:swayamkorde2005@gmail.com"><span>Email</span><span>swayamkorde2005@gmail.com</span></a></li>
           <li><a href="https://github.com/sk200005" target="_blank" rel="noopener"><span>GitHub</span><span>github.com/sk200005</span></a></li>
           <li><a href="https://www.linkedin.com/in/swayam-korde-7b76bb285/" target="_blank" rel="noopener"><span>LinkedIn</span><span>in/swayam-korde-7b76bb285</span></a></li>
-         
-          </ul>
+          <li><a href="https://leetcode.com/u/Swayam2026/" target="_blank" rel="noopener"><span>LeetCode</span><span>leetcode.com/u/Swayam2026</span></a></li>
+        </ul>
       </div>
 
       <div class="thread">

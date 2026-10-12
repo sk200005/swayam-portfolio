@@ -7,7 +7,7 @@ export const MARKUP = `<canvas id="bgfx" aria-hidden="true"></canvas>
     <nav class="nav" aria-label="Sections">
       <a href="#about">About</a>
       <a href="#work">Work</a>
-      <a href="#Contributions">Contributions</a>
+      <a href="#contributions">Contributions</a>
       <a href="#leetcode-section">LeetCode</a>
       <a href="#toolkit">Toolkit</a>
     </nav>
@@ -175,7 +175,9 @@ export const MARKUP = `<canvas id="bgfx" aria-hidden="true"></canvas>
   </section>
 
   <!-- GITHUB HEATMAP -->
-  <section class="sec" id="journey">
+  <section class="sec" id="contributions">
+    <a id="Contributions" style="position: absolute; visibility: hidden; pointer-events: none;" aria-hidden="true"></a>
+    <a id="journey" style="position: absolute; visibility: hidden; pointer-events: none;" aria-hidden="true"></a>
     <div class="wrap">
       <div class="sec-head">
         <h2 class="h2">GitHub Contributions</h2>

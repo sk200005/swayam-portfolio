@@ -243,7 +243,8 @@
         }
         var totalEl = document.getElementById('gh-total-contributions');
         if (totalEl && data.total) {
-          totalEl.textContent = data.total + ' Total';
+          var countNum = parseInt(String(data.total).replace(/,/g, ''), 10);
+          totalEl.textContent = data.total + (countNum === 1 ? ' Contribution' : ' Contributions');
           totalEl.style.display = 'inline-block';
         }
 
